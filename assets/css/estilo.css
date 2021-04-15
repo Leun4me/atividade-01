@@ -1,0 +1,47 @@
+body {
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    background-image: url("../images/Wallpaper.jpg");
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.navegacao {
+    margin: 0 auto;
+}
+
+.navegacao ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navegacao ul li {
+    flex-grow: 1;
+    padding: 0 50px;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto {
+    padding: 0 70px;
+}
+
+.fontegrande {
+    font-size: 3vmax;
+}

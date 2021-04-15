@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <title>Contato</title>
+    <style>
+        body {
+            padding: 10px;
+            font-family: fantasy;
+            font-size: 25px;
+            font-weight: 200;
+            color: white;
+            background-image: url("assets/images/Wallpaper.jpg");
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        .logo {
+            max-width: 100px;
+        }
+        
+        .navegacao {
+            margin: 0 auto;
+        }
+        
+        .navegacao ul {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+        }
+        
+        .navegacao ul li {
+            flex-grow: 1;
+            padding: 0 50px;
+            font-size: 25px;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .texto {
+            padding: 0 70px;
+        }
+        
+        .fontegrande {
+            font-size: 3vmax;
+        }
+        
+        div.form-group {
+            padding: 30px;
+        }
+        
+        .fontemetal {
+            font-family: 'Metal Mania', cursive;
+        }
+        
+        div.form-group {
+            text-align: center;
+            padding: 9px;
+        }
+        
+        .branco {
+            color: whitesmoke;
+        }
+        .bordatexto{
+            -webkit-text-stroke-width:3px ;
+            -webkit-text-stroke-color:rgb(255, 38, 0);
+        }
+        .sombrah1{
+            text-shadow: 9px 2px black;
+        }
+        .sombranav{
+        text-shadow: 3px 2px black;
+        }
+        .img2{border-style: solid;
+            border-color: white;
+        border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navegacao">
+        <ul>
+            <li><a href="index.html"><img src="assets/images/Pentakill logo.png" class="logo img2"></a></li>
+            <li><a href="sobre.html" class="btn btn-dark fontemetal btn-lg sombranav">Sobre a banda</a></li>
+            <li><a href="contato.html" class="btn btn-dark fontemetal btn-lg sombranav">Fale com o artista</a></li>
+        </ul>
+    </nav>
+    <div class="form-group">
+        <div>
+            <label for="Name" class="fontemetal sombranav">Nome</label>
+        </div>
+        <input type="text" class="form-lg" id="Name" placeholder="Seu Nome:">
+    </div>
+    <div class="form-group">
+        <div>
+            <label for="email" class="fontemetal sombranav">Endereço de Email</label>
+        </div>
+        <input type="text" class="form-lg" id="email" aria-describedby="emailHelp" placeholder="Insira Seu Email:">
+        <Small id="emailHelp" class="form-text branco sombranav">Suas informações não serão compartilhadas com ninguém.</Small>
+    </div>
+    <div class="form-group">
+        <div>
+            <label for="mensage" class="fontemetal sombranav">Comentário</label>
+        </div>
+        <textarea  id="mensage" cols="30" rows="10" placeholder="Escreva a sua mensagem aqui:"></textarea>
+
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-dark btn-lg fontemetal sombranav">Enviar</button>
+    </div>
+    
+</body>
+
+</html>
